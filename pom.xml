@@ -274,7 +274,7 @@
     </profiles>
 
     <build>
-        <finalName>applicationPetstore</finalName>
+        <finalName>${artifactId}-${version}</finalName>
 
         <plugins>
             <plugin>
